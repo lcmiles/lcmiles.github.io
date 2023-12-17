@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #87CEEB, #ecf0f1);
+    animation: gradientAnimation 5s linear infinite;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    background: #3498db;
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    background: #3498db;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust the z-index as needed */
+}
+
+nav.second-row {
+    margin-top: 10px;
+    position: fixed;
+    top: 50px; /* Adjust the top position based on your header's height */
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust the z-index as needed */
+}
+
+nav a, nav.second-row a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover, nav.second-row a:hover {
+    background: #27ae60;
+}
+
+nav a {
+    background: #2ecc71;
+}
+
+nav.second-row {
+    margin-top: 10px;
+}
+
+nav.second-row a {
+    background: #2ecc71;
+}
+
+nav.second-row a:hover {
+    background: #27ae60;
+}
+
+section {
+    text-align: left;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    text-align: left;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact {
+    text-align: center;
+}
+
+h1{
+    color: #3498db;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Verdana;
+}
+
+h2 {
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+    color: #3498db;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+div {
+    background-color: #3498db;
+    width: 600px;
+    border: 15px #3498db;
+    padding: 10px;
+    margin: 20px auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+form {
+    background: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 30px; /* Add margin between sections */
+    margin-top: 20px;
+}
+
+form button {
+    background: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #2980b9;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 30px; /* Add margin between sections */
+    margin-top: 20px;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+#downloads {
+    text-align: center;
+}
+
+#downloads button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#downloads button:hover {
+    background: #2980b9;
+}
