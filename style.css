@@ -159,7 +159,7 @@ div {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    box-sizing: border-box;
+    max-width: 100%;
 }
 
 form {
@@ -223,10 +223,4 @@ form button:hover {
 
 #downloads button:hover {
     background: #2980b9;
-}
-
-@media (max-width: 767px) {
-    section, div, .main, .contact {
-        max-width: 100%;
-    }
 }
