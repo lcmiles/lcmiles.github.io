@@ -226,7 +226,7 @@ form button:hover {
 }
 
 @media (max-width: 767px) {
-    section, .main, .contact {
+    section, div, .main, .contact {
         max-width: 100%;
     }
 }
