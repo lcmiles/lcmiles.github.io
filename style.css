@@ -29,6 +29,7 @@ nav a {
     margin: 0 10px;
     border-radius: 5px;
     transition: background 0.3s ease;
+    display: inline-block;
 }
 
 nav a:hover {
