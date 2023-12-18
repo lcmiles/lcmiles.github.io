@@ -1,19 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    padding-top: 56px;
     background: linear-gradient(to bottom, #87CEEB, #ecf0f1);
     animation: gradientAnimation 5s linear infinite;
-}
-
-header {
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    position: fixed;
-    background: #3498db;
-    padding: 50px;
-    text-align: center;
 }
 
 footer {
@@ -23,25 +13,16 @@ footer {
     text-align: center;
 }
 
-nav {
-    margin-top: 15px;
+nav.fixed-top {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Adjust the z-index as needed */
+    z-index: 1000;
+    background-color: #3498db;
 }
 
-nav.second-row {
-    margin-top: 10px;
-    position: fixed;
-    top: 50px; /* Adjust the top position based on your header's height */
-    left: 0;
-    width: 100%;
-    z-index: 1000; /* Adjust the z-index as needed */
-}
-
-nav a, nav.second-row a {
+nav a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
@@ -50,24 +31,49 @@ nav a, nav.second-row a {
     transition: background 0.3s ease;
 }
 
-nav a:hover, nav.second-row a:hover {
-    background: #27ae60;
+nav a:hover {
+    background: #2980b9;
 }
 
 nav a {
-    background: #2ecc71;
+    background: #3498db;
 }
 
-nav.second-row {
-    margin-top: 10px;
+/* Center the navbar links */
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
 }
 
-nav.second-row a {
-    background: #2ecc71;
+nav li {
+    list-style: none;
+    margin-right: 10px;
 }
 
-nav.second-row a:hover {
-    background: #27ae60;
+/* Adjust padding and font size */
+nav a {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+/* Add space between navbar and content */
+body {
+    margin-top: 56px;
+}
+
+/* Style the toggle button */
+.navbar-toggler {
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+/* Add some padding to the navbar collapse */
+.navbar-collapse {
+    padding: 10px;
 }
 
 section {
@@ -90,7 +96,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-bottom: 30px;
-    margin-top: 120px;
+    margin-top: 70px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -100,7 +106,7 @@ section {
     text-align: center;
 }
 
-h1{
+h1 {
     color: #3498db;
     text-align: center;
     font-weight: bold;
