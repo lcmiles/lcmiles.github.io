@@ -16,6 +16,7 @@ footer {
     background: #3498db;
     padding: 15px;
     text-align: center;
+    width: 100%;
 }
 
 nav.fixed-top {
