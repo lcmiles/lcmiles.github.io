@@ -224,31 +224,29 @@ form button:hover {
     background: #2980b9;
 }
 
-#links {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-    margin-top: 30px;
-    box-sizing: border-box;
+#social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
-
-
-#links p {
-    margin-bottom: 20px;
+#social-links a {
+    margin: 0 10px;
+    text-decoration: none;
 }
 
-#links button {
-    background-color: #3498db;
+#social-links img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    transition: transform 0.3s ease;
+}
+
+#social-links img:hover {
+    transform: scale(1.1);
+}
+
+h3 {
     color: white;
-    border: none;
-    padding: 10px 15px;
-    margin: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-#links button:hover {
-    background: #2980b9;
 }
