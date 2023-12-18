@@ -90,8 +90,8 @@ section {
     margin-bottom: 30px;
     margin-top: 20px;
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .main {
@@ -103,12 +103,15 @@ section {
     margin-bottom: 30px;
     margin-top: 70px;
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .contact {
     text-align: center;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 h1 {
