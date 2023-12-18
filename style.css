@@ -17,7 +17,6 @@ footer {
     padding: 15px;
     text-align: center;
     width: 100%;
-    
 }
 
 nav.fixed-top {
@@ -159,6 +158,8 @@ div {
     border-radius: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form {
@@ -171,6 +172,8 @@ form {
     margin: auto;
     margin-bottom: 30px; /* Add margin between sections */
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form button {
@@ -188,6 +191,8 @@ form button:hover {
     text-align: center;
     margin-bottom: 30px; /* Add margin between sections */
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @keyframes gradientAnimation {
@@ -201,6 +206,8 @@ form button:hover {
 
 #downloads {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #downloads button {
