@@ -224,3 +224,9 @@ form button:hover {
 #downloads button:hover {
     background: #2980b9;
 }
+
+@media (max-width: 767px) {
+    section, .main, .contact {
+        max-width: 100%;
+    }
+}
