@@ -4,6 +4,11 @@ body {
     padding-top: 56px;
     background: linear-gradient(to bottom, #87CEEB, #ecf0f1);
     animation: gradientAnimation 5s linear infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 footer {
@@ -29,7 +34,7 @@ nav a {
     margin: 0 10px;
     border-radius: 5px;
     transition: background 0.3s ease;
-    display: inline-block;
+    display: inline-block; /* Add this to prevent overlapping */
 }
 
 nav a:hover {
@@ -40,23 +45,26 @@ nav a {
     background: #3498db;
 }
 
-@media (max-width: 767px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+/* Center the navbar links */
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+}
 
-    nav li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
+nav li {
+    list-style: none;
+    margin-right: 10px;
 }
 
 /* Adjust padding and font size */
 nav a {
     padding: 10px 15px;
     font-size: 16px;
+    display: inline-block; /* Add this to prevent overlapping */
 }
 
 /* Add space between navbar and content */
@@ -85,8 +93,8 @@ section {
     margin-bottom: 30px;
     margin-top: 20px;
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .main {
@@ -98,106 +106,29 @@ section {
     margin-bottom: 30px;
     margin-top: 70px;
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .contact {
     text-align: center;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-h1 {
-    color: #3498db;
-    text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-    font-family: Verdana;
-}
+/* ... (existing styles) ... */
 
-h2 {
-    font-family: Verdana;
-    font-weight: bold;
-    text-align: center;
-    color: #3498db;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-    width: 300px;
-    height: auto;
-    border-radius: 50%;
-    padding: 10px;
-}
-
-div {
-    background-color: #3498db;
-    width: 600px;
-    border: 15px #3498db;
-    padding: 10px;
-    margin: 20px auto;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: Verdana;
-    font-weight: bold;
-    border-radius: 30px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-form {
-    background: #ecf0f1;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    padding: 20px;
-    max-width: 400px;
-    margin: auto;
-    margin-bottom: 30px; /* Add margin between sections */
-    margin-top: 20px;
-}
-
-form button {
-    background: #3498db;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover {
-    background: #2980b9;
-}
-
-.contact-info {
-    text-align: center;
-    margin-bottom: 30px; /* Add margin between sections */
-    margin-top: 20px;
-}
-
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 100%;
+/* Media query for small screens */
+@media (max-width: 767px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
-    100% {
-        background-position: 0% 0%;
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
     }
-}
-
-#downloads {
-    text-align: center;
-}
-
-#downloads button {
-    background-color: #3498db;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    margin: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-#downloads button:hover {
-    background: #2980b9;
 }
