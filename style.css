@@ -227,6 +227,6 @@ form button:hover {
 @media (max-width: 767px) {
     section, .main, .contact {
         max-width: 100%;
-        margin-top: 10px;
+        margin-top: 0;
     }
 }
