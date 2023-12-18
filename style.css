@@ -224,9 +224,31 @@ form button:hover {
     background: #2980b9;
 }
 
-@media (max-width: 767px) {
-    section, .main, .contact {
-        max-width: 100%;
-        margin-top: 0;
-    }
+#links {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+
+
+#links p {
+    margin-bottom: 20px;
+}
+
+#links button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#links button:hover {
+    background: #2980b9;
 }
