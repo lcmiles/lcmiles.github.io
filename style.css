@@ -8,6 +8,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    will-change: transform; 
 }
 
 footer {
@@ -16,6 +17,7 @@ footer {
     padding: 15px;
     text-align: center;
     width: 100%;
+    will-change: transform; 
 }
 
 nav.fixed-top {
@@ -94,6 +96,7 @@ section {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
+    will-change: transform; 
 }
 
 .main {
