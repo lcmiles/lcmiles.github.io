@@ -1,12 +1,23 @@
+.background-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.background-container img {
+    width: 100%;
+    height: auto;
+}
+
 body {
     padding: 0;
-    padding-top: 56px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    will-change: transform; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #87CEEB;
 }
 
 footer {
@@ -15,7 +26,6 @@ footer {
     padding: 15px;
     text-align: center;
     width: 100%;
-    will-change: transform; 
 }
 
 nav.fixed-top {
@@ -94,7 +104,6 @@ section {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    will-change: transform; 
 }
 
 .main {
@@ -110,8 +119,6 @@ section {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(to bottom, #87CEEB, #ecf0f1);
-    animation: gradientAnimation 5s linear infinite;
 }
 
 .contact {
