@@ -23,7 +23,7 @@ nav.fixed-top {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #000000;
+    background-color: #3498db;
 }
 
 nav a {
@@ -70,6 +70,7 @@ nav a {
 
 .navbar-collapse {
     padding: 10px;
+    background-color: #d4eeff;
 }
 
 section {
