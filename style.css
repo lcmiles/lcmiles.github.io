@@ -250,3 +250,7 @@ form button:hover {
 h3 {
     color: white;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
