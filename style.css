@@ -23,7 +23,7 @@ nav.fixed-top {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #3498db;
+    background-color: #a6dbff;
 }
 
 nav a {
@@ -89,7 +89,7 @@ section {
 
 .main {
     text-align: left;
-    background-color: #87CEEB;
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
