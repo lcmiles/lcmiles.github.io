@@ -1,23 +1,11 @@
-.background-container {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-}
-
-.background-container img {
-    width: 100%;
-    height: auto;
-}
-
 body {
     padding: 0;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    overflow-x: hidden;
-    background-color: #87CEEB;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
 }
 
 footer {
@@ -68,25 +56,21 @@ nav a {
     }
 }
 
-/* Adjust padding and font size */
 nav a {
     padding: 10px 15px;
     font-size: 16px;
 }
 
-/* Add space between navbar and content */
 body {
     margin-top: 56px;
 }
 
-/* Style the toggle button */
 .navbar-toggler {
     border: none;
     background: transparent;
     color: white;
 }
 
-/* Add some padding to the navbar collapse */
 .navbar-collapse {
     padding: 10px;
 }
@@ -103,7 +87,7 @@ section {
     width: 100%;
     box-sizing: border-box;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
 }
 
 .main {
