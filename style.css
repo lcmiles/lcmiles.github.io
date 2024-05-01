@@ -1,8 +1,7 @@
 body {
     padding: 0;
     padding-top: 56px;
-    background: linear-gradient(to bottom, #87CEEB, #ecf0f1);
-    animation: gradientAnimation 5s linear infinite;
+    background: #87CEEB;
     display: flex;
     flex-direction: column;
     align-items: center;
