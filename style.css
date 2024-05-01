@@ -8,6 +8,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    scroll-behavior: smooth;
 }
 
 footer {
@@ -250,7 +251,3 @@ form button:hover {
 h3 {
     color: white;
 }
-
-html {
-    scroll-behavior: smooth;
-  }
