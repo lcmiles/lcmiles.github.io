@@ -27,7 +27,7 @@ nav.fixed-top {
 }
 
 nav a {
-    color: white;
+    color: #1E1E1E;
     text-decoration: none;
     padding: 10px 15px;
     margin: 0 10px;
@@ -59,7 +59,7 @@ nav a:hover {
 .navbar-toggler {
     border: none;
     background: transparent;
-    color: white;
+    color: #1E1E1E;
 }
 
 .navbar-collapse {
@@ -69,7 +69,7 @@ nav a:hover {
 
 section {
     text-align: left;
-    background-color: #fff;
+    background-color: #1E1E1E;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -84,7 +84,7 @@ section {
 
 .main {
     text-align: left;
-    background-color: #fff;
+    background-color: #1E1E1E;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -135,7 +135,7 @@ div {
     border: 15px #3498db;
     padding: 10px;
     margin: auto;
-    color: rgb(255, 255, 255);
+    color: #1E1E1E;
     text-align: center;
     font-family: Verdana;
     font-weight: bold;
@@ -148,7 +148,7 @@ div {
 }
 
 form {
-    background: #ecf0f1;
+    background: #1E1E1E;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: center;
@@ -163,7 +163,7 @@ form {
 
 form button {
     background: #3498db;
-    color: white;
+    color: #1E1E1E;
     border: none;
     cursor: pointer;
 }
@@ -197,7 +197,7 @@ form button:hover {
 
 #downloads button {
     background-color: #3498db;
-    color: white;
+    color: #1E1E1E;
     border: none;
     padding: 10px 15px;
     margin: 10px;
@@ -234,7 +234,7 @@ form button:hover {
 }
 
 h3 {
-    color: white;
+    color: #1E1E1E;
 }
 
 html {
