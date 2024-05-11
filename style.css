@@ -49,12 +49,14 @@ nav a {
 @media (max-width: 767px) {
     nav ul {
         flex-direction: column;
+        text-decoration: none;
         align-items: center;
         text-align: center;
     }
     nav li {
         margin-right: 0;
         margin-bottom: 10px;
+        text-decoration: none;
     }
 }
 
@@ -214,6 +216,7 @@ form button:hover {
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease;
+    text-decoration: none;
 }
 
 #downloads button:hover {
