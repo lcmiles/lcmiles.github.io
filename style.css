@@ -9,14 +9,16 @@ body {
     justify-content: center;
     min-height: 100vh;
 }
+
 footer {
     margin-top: 20px;
     background: #3498db;
     padding: 15px;
     text-align: center;
     width: 100%;
-    color:#fff
+    color: #fff;
 }
+
 nav.fixed-top {
     position: fixed;
     top: 0;
@@ -25,6 +27,7 @@ nav.fixed-top {
     z-index: 1000;
     background-color: #3498db;
 }
+
 nav a {
     color: white;
     text-decoration: none;
@@ -34,12 +37,15 @@ nav a {
     transition: background 0.3s ease;
     display: inline-block;
 }
+
 nav a:hover {
     background: #2980b9;
 }
+
 nav a {
     background: #3498db;
 }
+
 @media (max-width: 767px) {
     nav ul {
         flex-direction: column;
@@ -51,25 +57,26 @@ nav a {
         margin-bottom: 10px;
     }
 }
-/* Adjust padding and font size */
+
 nav a {
     padding: 10px 15px;
     font-size: 16px;
 }
-/* Add space between navbar and content */
+
 body {
     margin-top: 56px;
 }
-/* Style the toggle button */
+
 .navbar-toggler {
     border: none;
     background: transparent;
     color: white;
 }
-/* Add some padding to the navbar collapse */
+
 .navbar-collapse {
     padding: 10px;
 }
+
 section {
     text-align: left;
     background-color: #fff;
@@ -84,6 +91,7 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
+
 .main {
     text-align: left;
     background-color: #fff;
@@ -98,6 +106,7 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
+
 .contact {
     text-align: center;
     max-width: 800px;
@@ -106,6 +115,7 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
+
 h1 {
     color: #3498db;
     text-align: center;
@@ -113,12 +123,14 @@ h1 {
     font-size: 50px;
     font-family: Verdana;
 }
+
 h2 {
     font-family: Verdana;
     font-weight: bold;
     text-align: center;
     color: #3498db;
 }
+
 img {
     display: block;
     margin: 0 auto;
@@ -127,6 +139,7 @@ img {
     border-radius: 50%;
     padding: 10px;
 }
+
 div {
     background-color: #3498db;
     border: 15px #3498db;
@@ -143,6 +156,7 @@ div {
     margin-right: auto;
     max-width: 100%;
 }
+
 form {
     background: #ecf0f1;
     border-radius: 10px;
@@ -151,27 +165,31 @@ form {
     padding: 20px;
     max-width: 400px;
     margin: auto;
-    margin-bottom: 30px; /* Add margin between sections */
+    margin-bottom: 30px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
+
 form button {
     background: #3498db;
     color: white;
     border: none;
     cursor: pointer;
 }
+
 form button:hover {
     background: #2980b9;
 }
+
 .contact-info {
     text-align: center;
-    margin-bottom: 30px; /* Add margin between sections */
+    margin-bottom: 30px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
+
 @keyframes gradientAnimation {
     0% {
         background-position: 0% 100%;
@@ -180,11 +198,13 @@ form button:hover {
         background-position: 0% 0%;
     }
 }
+
 #downloads {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
+
 #downloads button {
     background-color: #3498db;
     color: white;
@@ -195,29 +215,34 @@ form button:hover {
     cursor: pointer;
     transition: background 0.3s ease;
 }
+
 #downloads button:hover {
     background: #2980b9;
 }
+
 #social-links {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
 }
+
 #social-links a {
     margin: 0 10px;
     text-decoration: none;
 }
+
 #social-links img {
     width: 60px;
     height: 60px;
     border-radius: 100%;
     transition: transform 0.3s ease;
 }
+
 #social-links img:hover {
     transform: scale(1.1);
 }
 
 html {
     scroll-behavior: smooth;
-  }
+}
