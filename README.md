@@ -1,3 +1,3 @@
 # Repo for my personal website
  
-[Link to website](lcmiles.github.io)
+[Link to website](https://lcmiles.github.io/)
