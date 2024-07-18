@@ -66,6 +66,7 @@ nav a:hover {
 .navbar-collapse {
     padding: 10px;
     background-color: #d4eeff;
+    border-radius: 5px;
 }
 
 body {
@@ -145,7 +146,7 @@ img {
     padding: 10px;
 }
 
-div {
+.container {
     background-color: #3498db;
     border: 15px #3498db;
     padding: 10px;
