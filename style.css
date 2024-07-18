@@ -143,7 +143,10 @@ img {
     width: 300px;
     height: auto;
     border-radius: 50%;
-    padding: 10px;
+}
+
+.profile-pic {
+    border: 5px solid #3498db;
 }
 
 .container, .technical-skill {
