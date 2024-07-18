@@ -146,7 +146,7 @@ img {
     padding: 10px;
 }
 
-.container {
+.container, .technical-skill {
     background-color: #3498db;
     border: 15px #3498db;
     padding: 10px;
