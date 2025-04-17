@@ -1,3 +1,3 @@
-# Repo for my personal website
- 
-[Link to website](https://lcmiles.github.io/)
+# Repo for my portfolio
+
+### [Portfolio Template Source](https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2)
