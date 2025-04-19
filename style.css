@@ -314,6 +314,10 @@ section {
   margin: auto 0;
 }
 
+.about-text{
+  margin: 1rem;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
