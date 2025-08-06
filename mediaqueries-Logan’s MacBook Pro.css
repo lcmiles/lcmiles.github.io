@@ -75,7 +75,7 @@
     padding: 1rem;
   }
   
-  #experience .article-container {
+  .article-container {
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 1rem;
     max-width: 480px;
@@ -131,7 +131,7 @@
     padding: 0.8rem;
   }
   
-  #experience .article-container {
+  .article-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.8rem;
     max-width: 320px;
@@ -179,17 +179,6 @@
     flex-wrap: wrap;
   }
   
-  /* Add spacing between contact options on mobile */
-  .contact-info-upper-container {
-    gap: 1rem;
-    padding: 1rem;
-    justify-content: center;
-  }
-  
-  .contact-info-container {
-    margin: 0.5rem;
-  }
-  
   #projects .about-containers {
     gap: 1rem;
     padding: 0 0.5rem;
@@ -202,7 +191,7 @@
   }
   
   /* Center project images on mobile */
-  #projects .article-container {
+  .article-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -221,7 +210,7 @@
   }
   
   .contact-info-container {
-    margin: 0.5rem 0;
+    margin: 0;
   }
   .contact-info-container p,
   .nav-links li a {
@@ -238,17 +227,9 @@
     gap: 0.5rem;
     text-align: center;
   }
-  
-  /* Keep footer nav-links horizontal */
-  footer .nav-links {
-    flex-direction: row;
-    gap: 1.5rem;
-    justify-content: center;
-  }
   .section__pic-container {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto 2rem;
+    width: auto;
+    height: 46vw;
     justify-content: center;
   }
   

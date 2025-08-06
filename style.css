@@ -194,6 +194,7 @@ a:hover {
   opacity: 0;
   visibility: hidden;
   padding: 0;
+  z-index: 9999; /* Ensure menu appears on top */
 }
 
 .menu-links a {
