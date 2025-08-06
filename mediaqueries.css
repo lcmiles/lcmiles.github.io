@@ -12,6 +12,18 @@
   }
 }
 
+/* Ensure 2x2 grid for larger screens */
+@media screen and (min-width: 900px) {
+  #projects .about-containers {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 4rem; /* increased horizontal gap for desktop */
+    max-width: 1000px;
+    padding: 0 2rem;
+    margin: 0 auto;
+    justify-items: center;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -47,6 +59,46 @@
   }
 }
 
+/* Switch to single column for medium and small screens */
+@media screen and (max-width: 899px) {
+  #experience .details-container {
+    max-width: 500px;
+    padding: 1rem;
+  }
+  
+  .article-container {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    max-width: 480px;
+  }
+  
+  article {
+    max-width: 140px;
+    gap: 0.6rem;
+  }
+  
+  #projects .about-containers {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+    justify-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #projects .details-container {
+    min-height: 350px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .project-title {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    margin: 0.8rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -56,9 +108,50 @@
     height: 83vh;
     margin-bottom: 0;
   }
-  article {
-    font-size: 1rem;
+  
+  #experience .details-container {
+    max-width: 380px;
+    padding: 0.8rem;
   }
+  
+  .article-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+    max-width: 320px;
+  }
+  
+  article {
+    font-size: 0.9rem;
+    max-width: 140px;
+    gap: 0.4rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .certification-container {
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+  
+  .certification-article {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.8rem;
+    padding: 1.2rem 0.8rem;
+  }
+  
+  .certification-article .icon {
+    align-self: center;
+  }
+  
+  .certification-article:hover {
+    transform: translateY(-2px);
+  }
+  
+  article .icon {
+    margin-bottom: 0.2rem;
+  }
+  
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
@@ -68,6 +161,24 @@
   .btn-container {
     flex-wrap: wrap;
   }
+  
+  #projects .about-containers {
+    gap: 1rem;
+    padding: 0 0.5rem;
+    max-width: 400px;
+  }
+  
+  #projects .details-container {
+    min-height: 320px;
+    max-width: 350px;
+  }
+  
+  .project-title {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin: 0.5rem;
+  }
+  
   .contact-info-container {
     margin: 0;
   }
