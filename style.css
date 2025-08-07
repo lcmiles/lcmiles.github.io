@@ -700,7 +700,11 @@ footer .nav-links {
   margin: 0;
 }
 
-footer p {
-  text-align: center;
-  margin: 0;
+/* Hide arrows on mobile */
+@media (max-width: 900px) {
+  .arrow,
+  .arrow-up,
+  .arrow-label {
+    display: none !important;
+  }
 }
